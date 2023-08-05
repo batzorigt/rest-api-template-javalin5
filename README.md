@@ -1,7 +1,12 @@
 # Build
 
 ```
+git clone git@github.com:batzorigt/rest-api-template.git
+cd rest-api-template
+
+# pull docker image into local docker registry
 docker pull bellsoft/liberica-openjre-alpine-musl:20.0.2-10
+
 # build uber jar and docker image
 mvn package
 ```
@@ -9,13 +14,15 @@ mvn package
 # Run
 
 ```
+cd rest-api-template
+
 # run from jar file
 mvn exec:java
 
 # run from docker image
-cd ${project-home-dir}/target
+cd target
 docker load -i jib-image.tar
-docker run batzorigt.rentsen.rest-api-template
+docker run -p 8080:8080 batzorigt.rentsen.rest-api-template
 ```
 
 # IntelliJ IDEA
