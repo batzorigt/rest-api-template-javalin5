@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>batzorigt.rentsen</groupId>
-	<artifactId>rest-api-template</artifactId>
+	<artifactId>rest-api-template-javalin5</artifactId>
 	<version>1.0.0</version>
 
 	<properties>
