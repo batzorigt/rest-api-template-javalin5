@@ -2,7 +2,7 @@
 
 ```
 docker pull bellsoft/liberica-openjre-alpine-musl:20.0.2-10
-mvn clean package
+mvn package
 ```
 
 # Run
