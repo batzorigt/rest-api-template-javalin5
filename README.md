@@ -14,12 +14,12 @@ mvn package
 # Run
 
 ```
-cd rest-api-template-javalin5
+cd rest-api-template-javalin5/target
 
-# run from jar file
-mvn exec:java
+# run using jar file
+java -javaagent:ebean-agent-13.20.1.jar rest-api-template-1.0.0.jar
 
-# run from docker image
+# run using docker image
 cd target
 docker load -i jib-image.tar
 docker run -p 8080:8080 batzorigt.rentsen.rest-api-template
