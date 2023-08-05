@@ -1,7 +1,7 @@
 # Build
 
 ```
-git clone git@github.com:batzorigt/rest-api-template.git
+git@github.com:batzorigt/rest-api-template-javalin5.git
 cd rest-api-template
 
 # pull docker image into local docker registry
