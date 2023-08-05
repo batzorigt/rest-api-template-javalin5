@@ -2,6 +2,7 @@
 
 ```
 docker pull bellsoft/liberica-openjre-alpine-musl:20.0.2-10
+# build uber jar and docker image
 mvn package
 ```
 
