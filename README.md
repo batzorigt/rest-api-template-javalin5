@@ -48,6 +48,8 @@ logging: log4j2
 
 # Architecture & layer roles
 
+```
 Handlers: Receive http requests and validate request parameters or request body. Call services. Manage database transactions.
 Services: Business logics
 Domains: Data access layer
+```
