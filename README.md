@@ -31,3 +31,16 @@ https://projectlombok.org/setup/intellij
 https://ebean.io/docs/getting-started/intellij-idea
 https://mapstruct.org/documentation/ide-support/
 ```
+
+# Used Libraries
+
+```
+web framework: https://javalin.io/
+configuration: https://matteobaccan.github.io/owner/
+orm: https://ebean.io/
+bean mappings: https://mapstruct.org/
+templating: https://jte.gg/
+validation: javalin built validators + custom bean validator using hibernate-validator
+monitoring: micrometer plugin for prometheus
+logging: log4j2
+```
