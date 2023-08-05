@@ -17,7 +17,7 @@ mvn package
 cd rest-api-template-javalin5/target
 
 # run jar file
-java -javaagent:ebean-agent-13.20.1.jar rest-api-template-javalin4-1.0.0.jar
+java -javaagent:ebean-agent-13.20.1.jar rest-api-template-javalin5-1.0.0.jar
 
 # run as docker container
 docker load -i jib-image.tar
