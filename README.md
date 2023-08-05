@@ -18,18 +18,18 @@ docker load -i jib-image.tar
 docker run batzorigt.rentsen.rest-api-template
 ```
 
-# Eclipse
-```
-https://projectlombok.org/setup/eclipse
-https://ebean.io/docs/getting-started/eclipse-ide
-https://mapstruct.org/documentation/ide-support/
-```
-
 # IntelliJ IDEA
 
 ```
 https://projectlombok.org/setup/intellij
 https://ebean.io/docs/getting-started/intellij-idea
+https://mapstruct.org/documentation/ide-support/
+```
+
+# Eclipse
+```
+https://projectlombok.org/setup/eclipse
+https://ebean.io/docs/getting-started/eclipse-ide
 https://mapstruct.org/documentation/ide-support/
 ```
 
@@ -45,3 +45,9 @@ validation: javalin built validators + custom bean validator using hibernate-val
 monitoring: micrometer plugin for prometheus
 logging: log4j2
 ```
+
+# Architecture & layer roles
+
+Handlers: Receive http requests and validate request parameters or request body. Call services. Manage database transactions.
+Services: Business logics
+Domains: Data access layer
