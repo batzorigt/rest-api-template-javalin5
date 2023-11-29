@@ -71,7 +71,7 @@ Data access layer. Easily testable and static typed & fine tuned queries which a
 
 Helpers:
 Mailers, validators, template based text generator, encryptor/decryptor, base 64 encoder/decoder,
-security token generetor/signer/verifier, i18n localized message loader, file loaders, configurator etc.
+security token generator/signer/verifier, i18n localized message loader, file loaders, configurator etc.
 
 Exception handlers:
 Simple and centralized exception handling.
